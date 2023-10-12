@@ -1,0 +1,3608 @@
+/*body*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*fondos*/
+.contenedor {
+    width: 100%;
+    height: 4000px;
+}
+
+.cont-josua {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    bottom: 4005px;
+}
+
+/*barra de navegacion*/
+.nav {
+    width: 100%;
+    background-color: rgb(11, 206, 206);
+    height: 50px;
+}
+
+.nav, .lista {
+    list-style-type: none;
+    text-align: center;
+}
+
+.lista, li {
+    position: relative;
+    display: inline;
+    text-align: center;
+    margin: 0 9px 0 ;
+    top: 6px;
+}
+/*titulo de header*/
+.titulo {
+    color: red;
+    width: 100%;
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    bottom: 4120px;
+}
+
+.lista-marcas {
+    position: relative;
+    top: 100px;
+    font-size: 15px;
+}
+
+.sony, .ekt {
+    color: rgb(8, 226, 215);
+}
+
+.samsung, .roku {
+    color: rgb(226, 8, 208);
+}
+
+.panasonic, .aoc {
+    color: rgb(8, 226, 215);
+}
+
+.atvio, .jvc, .sharp {
+    color: rgb(222, 226, 8);
+}
+
+.aiwa, .vios {
+    color: rgb(226, 157, 8);
+}
+
+/*venta de tarjetas*/
+.section-1 {
+    position: relative;
+    background-color: aqua;
+    width: 100%;
+    height: 350px;
+    padding: 0px;
+    bottom: 3970px;
+    display: block;  
+}
+
+
+.article-tarjetas {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    top: 50px;
+    display: block;
+}
+
+.h2-titulo-main {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    top: 30px;
+    color: rgb(247, 57, 57);
+    display: block;
+}
+
+.main-sony {
+    position: relative;
+    width: 100%;
+    top: 80px;
+    height: 500px;
+}
+
+/*reparacion*/
+.section-2 {
+    position: relative;
+    background-color: rgb(139, 12, 133);
+    width: 100%;
+    height: 350px;
+    padding: 0px;
+    bottom: 3450px;
+    display: block;  
+}
+
+
+.article-reparacion {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    top: 50px;
+    display: block;
+}
+
+.h2-titulo-reparacion {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    top: 30px;
+    color: rgb(57, 234, 247);
+    display: block;
+}
+
+.fuente-sony {
+    position: relative;
+    width: 100%;
+    top: 80px;
+    height: 500px;
+}
+
+/*venta tiras led*/
+.section-3 {
+    position: relative;
+    background-color: rgb(16, 139, 12);
+    width: 100%;
+    height: 350px;
+    padding: 0px;
+    bottom: 2930px;
+    display: block;  
+}
+
+
+.article-tiras {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    top: 50px;
+    display: block;
+}
+
+.h2-titulo-tiras {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    top: 30px;
+    color: rgb(123, 15, 224);
+    display: block;
+}
+
+.tiras-led {
+    position: relative;
+    width: 100%;
+    top: 128px;
+    height: 500px;
+}
+
+/*compra de tv*/
+.section-4 {
+    position: relative;
+    background-color: rgb(223, 14, 223);
+    width: 100%;
+    height: 350px;
+    padding: 0px;
+    bottom: 2370px;
+    display: block;  
+}
+
+
+.article-compra {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    top: 50px;
+    display: block;
+}
+
+.h2-titulo-compra {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    top: 30px;
+    color: rgb(15, 224, 161);
+    display: block;
+}
+
+.compra-tv {
+    position: relative;
+    width: 100%;
+    top: 128px;
+    height: 500px;
+}
+
+/*Formulario*/
+
+.inicio2 {
+    position: relative;
+    color: #0a0aff;
+    left: 180px;
+    font-size: 20px;
+    border-bottom: 20px;
+    bottom: 20PX;
+}
+
+.contact_form{ 
+    width: 100%; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+  
+  
+input{
+    background-color: #fbfbfb; 
+    width: 80%; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px;
+    display: block; 
+}
+  
+  
+textarea{
+    background-color: #fbfbfb; 
+    width: 80%; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+  
+  
+label{
+    display: block; 
+    float: center;  
+}
+  
+  
+button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #ab4493; 
+    border-color: #ab4493; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 80%;   
+    cursor: pointer;
+}
+  
+  
+button p{
+    color: #fff; 
+}
+  
+  
+span{
+    color: #ab4493; 
+}
+  
+  
+.aviso{
+    font-size: 13px;  
+    color: #0e0e0e;     
+}
+  
+  
+h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #ab4493;
+}
+  
+  
+h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+}
+  
+  
+p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+}
+  
+  
+::-webkit-input-placeholder {
+   color: #a8a8a8;
+}
+  
+  
+::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+}
+  
+  
+.formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+}
+  
+  
+.formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+}
+
+/*body servicios*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*fondos servicios*/
+.contenedor-servicios {
+    width: 100%;
+    height: 4000px;
+}
+
+.contenedor2-servicios {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    bottom: 4005px;
+}
+
+/* reparacion*/
+.section-servicios {
+    position: relative;
+    background-color: aqua;
+    width: 100%;
+    height: 350px;
+    padding: 0px;
+    bottom: 4009px;
+    display: block;  
+}
+
+
+.article-servicios {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    top: 0px;
+    display: block;
+}
+
+.h2-titulo-servicios {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    bottom: 120px;
+    color: rgb(247, 57, 57);
+    display: block;
+}
+
+.tv-servicios {
+    position: relative;
+    width: 100%;
+    top: 80px;
+    height: 400px;
+}
+
+/*diagnosticos*/
+.section-diagnostico {
+    position: relative;
+    background-color: rgb(139, 12, 133);
+    width: 100%;
+    height: 350px;
+    padding: 0px;
+    bottom: 3650px;
+    display: block;  
+}
+
+
+.article-diagnostico {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    top: 90px;
+    display: block;
+}
+
+.h2-titulo-diagnostico {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    top: 40px;
+    color: rgb(57, 234, 247);
+    display: block;
+}
+
+
+/*barra de navegacion servicios*/
+.nav-servicios {
+    width: 100%;
+    background-color: rgb(11, 206, 206);
+    height: 50px;
+}
+
+.nav-servicios, .lista-servicios {
+    list-style-type: none;
+    text-align: center;
+}
+
+.lista-servicios, li {
+    position: relative;
+    display: inline;
+    text-align: center;
+    margin: 0 9px 0 ;
+    top: 6px;
+}
+
+/*presupuesto*/
+.section-presupuesto {
+    position: relative;
+    background-color: rgb(216, 213, 8);
+    width: 100%;
+    height: 350px;
+    padding: 0px;
+    bottom: 3600px;
+    display: block;  
+}
+
+
+.article-presupuesto {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    top: 90px;
+    display: block;
+}
+
+.h2-titulo-presupuesto {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    top: 60px;
+    color: rgb(123, 15, 224);
+    display: block;
+}
+
+/*garantia*/
+.section-garantia {
+    position: relative;
+    background-color: rgb(223, 14, 223);
+    width: 100%;
+    height: 350px;
+    padding: 0px;
+    bottom: 3540px;
+    display: block;  
+}
+
+
+.article-garantia {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    top: 100px;
+    display: block;
+}
+
+.h2-titulo-garantia {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    top: 60px;
+    color: rgb(15, 224, 161);
+    display: block;
+}
+
+/*fondo productos*/
+
+.fondo-productos {
+    width: 100%;
+    height: 4000px;
+}
+
+
+.img-productos {
+    position: relative;
+    background-color: aqua;
+    width: 100%;
+    height: 350px;
+    padding: 0px;
+    bottom: 3952px;
+    display: block;
+}
+/*navegacion productos*/
+.nav-productos {
+    position: relative;
+    width: 100%;
+    background-color: rgb(11, 206, 206);
+    height: 50px;
+    bottom: 4395px;
+    display: block;
+}
+
+.nav-productos, .lista-productos {
+    list-style-type: none;
+    text-align: center;
+}
+
+.lista-productos, li {
+    position: relative;
+    display: inline;
+    text-align: center;
+    margin: 0 9px 0 ;
+    top: 6px;
+}
+
+/*haeder de productos*/
+
+.tarjetas-productos {
+    color: red;
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    bottom: 4120px;
+}
+
+/*body lista de productos*/
+
+.sony-producto, .samsung-producto,.lg-producto {
+    display: block;
+    width: 90%;
+    color: #0e0e0e;
+    background-color: rgb(13, 233, 86);
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    left: 10px;
+    bottom: 4000px;
+    border-radius: 30px;
+}
+
+
+.panasonic-producto, 
+.speler-producto {
+    display: block;
+    width: 90%;
+    color: #cbec11;
+    background-color: rgb(238, 14, 238);
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    left: 10px;
+    bottom: 3953px;
+    border-radius: 30px;
+}
+
+.sharp-producto, .aoc-producto, .spectra-producto {
+    display: block;
+    width: 90%;
+    color: #036363;
+    background-color: rgb(238, 141, 14);
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    left: 10px;
+    bottom: 3913px;
+    border-radius: 30px;
+}
+
+
+.roku-producto, .heisense-producto, .xiaomi-producto  {
+    display: block;
+    width: 89%;
+    color: #0df589;
+    background-color: rgb(118, 9, 243);
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    left: 10px;
+    bottom: 3875px;
+    border-radius: 30px;
+}
+
+
+.hiunday-producto, .jvc-producto, .philips-producto {
+    display: block;
+    width: 90%;
+    color: #f5a40d;
+    background-color: rgb(243, 36, 9);
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    left: 10px;
+    bottom: 3835px;
+    border-radius: 30px;
+}
+/*inicia sony marca*/
+.fondo-sony {
+    width: 100%;
+    height: 5000px;
+}
+
+.fondo-heder-sony {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    bottom: 5005px;
+}
+
+/*navegacion sony*/
+.nav-marca-sony {
+    position: relative;
+    width: 100%;
+    background-color: rgb(11, 206, 206);
+    height: 50px;
+    display: block;
+}
+
+.nav-marca-sony, .lista-sony {
+    list-style-type: none;
+    text-align: center;
+}
+
+.lista-sony li {
+    position: relative;
+    display: inline;
+    text-align: center;
+    margin: 0 9px 0 ;
+    top: 6px;
+}
+/*titulo sony marca*/
+.h1-sony1 {
+    color: red;
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    bottom: 5130px; 
+}
+
+/*sony main contenedora*/
+.cont-sony {
+    position: relative;
+    bottom: 5040px;
+    background-color: aqua;
+    width: 40%;
+    height: 300px;
+    left: 5%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo main sony*/
+.con2-sony {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*imagen main*/
+.main-sony1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto main sony*/
+.main0-sony {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton main sony*/
+.boton-sony {
+    width: 20%;
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 480px;
+    font-size: 10px;
+    text-align: center;
+    right: 0px;
+}
+
+/*parrafo main sony*/
+.parrafo-main {
+    position: relative;
+    width: 90%;
+    bottom: 265px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*sony fuente contenedora*/
+.cont-sony-fuente {
+    position: relative;
+    bottom: 5340px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 55%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo fuente sony*/
+.con2-sony-fuente {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*imagen fuente*/
+.fuente-sony1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto fuente sony*/
+.fuente0-sony {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton fuente sony*/
+.boton-sony-fuente {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo fuente sony*/
+.parrafo-fuente {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*t-con sony*/
+.cont-sony-t-con {
+    position: relative;
+    bottom: 5310px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 55%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo t.con sony*/
+.con2-sony-t-con {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*t-con fuente*/
+.t-con-sony1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto t-con sony*/
+.t-con-sony {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton t-con sony*/
+.boton-sony-t-con {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo t-con sony*/
+.parrafo-t-con {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*inverter sony*/
+.cont-sony-inverter {
+    position: relative;
+    bottom: 5710px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 5%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo inverter sony*/
+.con2-sony-inverter {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*inverter sony*/
+.inverter-sony1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto inverter sony*/
+.inverter-sony {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton inverter sony*/
+.boton-sony-inverter {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo inverter sony*/
+.parrafo-inverter {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*inicia samsung marca*/
+.fondo-samsung {
+    width: 100%;
+    height: 5000px;
+}
+
+.fondo-heder-samsung {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    bottom: 5005px;
+}
+
+/*navegacion samsung*/
+.nav-marca-samsung {
+    position: relative;
+    width: 100%;
+    background-color: rgb(11, 206, 206);
+    height: 50px;
+    display: block;
+}
+
+.nav-marca-samsung, .lista-samsung {
+    list-style-type: none;
+    text-align: center;
+}
+
+.lista-samsung li {
+    position: relative;
+    display: inline;
+    text-align: center;
+    margin: 0 9px 0 ;
+    top: 6px;
+}
+/*titulo samsung marca*/
+.h1-samsung1 {
+    color: red;
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    bottom: 5130px; 
+}
+
+/*samsung main contenedora*/
+.cont-samsung {
+    position: relative;
+    bottom: 5040px;
+    background-color: aqua;
+    width: 40%;
+    height: 300px;
+    left: 5%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo main samsung*/
+.con2-samsung {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*imagen main samsung*/
+.main-samsung {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto main samsung*/
+.main0-samsung1 {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton main samsung*/
+.boton-samsung {
+    width: 20%;
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 480px;
+    font-size: 10px;
+    text-align: center;
+    right: 0px;
+}
+
+/*parrafo main samsung*/
+.parrafo-main-samsung {
+    position: relative;
+    width: 90%;
+    bottom: 265px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*samsung fuente contenedora*/
+.cont-samsung-fuente {
+    position: relative;
+    bottom: 5340px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 55%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo fuente samsung*/
+.con2-samsung-fuente {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*imagen fuente samsung*/
+.fuente-samsung1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto fuente samsung*/
+.fuente0-samsung {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton fuente samsung*/
+.boton-samsung-fuente {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo fuente samsung*/
+.parrafo-fuente-samsung {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*t-con samsung*/
+.cont-samsung-t-con {
+    position: relative;
+    bottom: 5310px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 55%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo t.con samsung*/
+.con2-samsung-t-con {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*t-con fuente samsung*/
+.t-con-samsung1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto t-con samsung*/
+.t-con-samsung {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton t-con samsung*/
+.boton-samsung-t-con {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo t-con samsung*/
+.parrafo-t-con-samsung {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*inverter samsung*/
+.cont-samsung-inverter {
+    position: relative;
+    bottom: 5710px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 5%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo inverter samsung*/
+.con2-samsung-inverter {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*inverter samsung*/
+.inverter-samsung1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto inverter samsung*/
+.inverter-samsung {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton inverter samsung*/
+.boton-samsung-inverter {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo inverter samsung*/
+.parrafo-inverter-samsung {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*empieza lg*/
+.fondo-lg {
+    width: 100%;
+    height: 5000px;
+}
+
+.fondo-heder-lg {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    bottom: 5005px;
+}
+
+/*navegacion lg*/
+.nav-marca-lg {
+    position: relative;
+    width: 100%;
+    background-color: rgb(11, 206, 206);
+    height: 50px;
+    display: block;
+}
+
+.nav-marca-lg, .lista-lg {
+    list-style-type: none;
+    text-align: center;
+}
+
+.lista-lg li {
+    position: relative;
+    display: inline;
+    text-align: center;
+    margin: 0 9px 0 ;
+    top: 6px;
+}
+/*titulo lg marca*/
+.h1-lg1 {
+    color: red;
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    bottom: 5130px; 
+}
+
+/*lg main contenedora*/
+.cont-lg {
+    position: relative;
+    bottom: 5040px;
+    background-color: aqua;
+    width: 40%;
+    height: 300px;
+    left: 5%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo main lg*/
+.con2-lg {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*imagen main lg*/
+.main-lg {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto main lg*/
+.main0-lg1 {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton main lg*/
+.boton-lg {
+    width: 20%;
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 480px;
+    font-size: 10px;
+    text-align: center;
+    right: 0px;
+}
+
+/*parrafo main lg*/
+.parrafo-main-lg {
+    position: relative;
+    width: 90%;
+    bottom: 265px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*lg fuente contenedora*/
+.cont-lg-fuente {
+    position: relative;
+    bottom: 5340px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 55%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo fuente lg*/
+.con2-lg-fuente {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*imagen fuente lg*/
+.fuente-lg1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto fuente lg*/
+.fuente0-lg {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton fuente lg*/
+.boton-lg-fuente {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo fuente lg*/
+.parrafo-fuente-lg {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*t-con lg*/
+.cont-lg-t-con {
+    position: relative;
+    bottom: 5310px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 55%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo t.con lg*/
+.con2-lg-t-con {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*t-con fuente lg*/
+.t-con-lg1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto t-con lg*/
+.t-con-lg {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton t-con lg*/
+.boton-lg-t-con {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo t-con lg*/
+.parrafo-t-con-lg {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*inverter lg*/
+.cont-lg-inverter {
+    position: relative;
+    bottom: 5710px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 5%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo inverter lg*/
+.con2-lg-inverter {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*inverter lg*/
+.inverter-lg1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto inverter lg*/
+.inverter-lg {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton inverter lg*/
+.boton-lg-inverter {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo inverter lg*/
+.parrafo-inverter-lg {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*inicia panasonic*/
+.fondo-panasonic {
+    width: 100%;
+    height: 5000px;
+}
+
+.fondo-heder-panasonic {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    bottom: 5005px;
+}
+
+/*navegacion lg*/
+.nav-marca-panasonic {
+    position: relative;
+    width: 100%;
+    background-color: rgb(11, 206, 206);
+    height: 50px;
+    display: block;
+}
+
+.nav-marca-panasonic, .lista-panasonic {
+    list-style-type: none;
+    text-align: center;
+}
+
+.lista-panasonic li {
+    position: relative;
+    display: inline;
+    text-align: center;
+    margin: 0 9px 0 ;
+    top: 6px;
+}
+/*titulo lg marca*/
+.h1-panasonic1 {
+    color: red;
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    bottom: 5130px; 
+}
+
+/*panasonic main contenedora*/
+.cont-panasonic {
+    position: relative;
+    bottom: 5040px;
+    background-color: aqua;
+    width: 40%;
+    height: 300px;
+    left: 5%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo main panasonic*/
+.con2-panasonic {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*imagen main panasonic*/
+.main-panasonic {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto main panasonic*/
+.main0-panasonic1 {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton main panasonic*/
+.boton-panasonic {
+    width: 20%;
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 480px;
+    font-size: 10px;
+    text-align: center;
+    right: 0px;
+}
+
+/*parrafo main panasonic*/
+.parrafo-main-panasonic {
+    position: relative;
+    width: 90%;
+    bottom: 265px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*panasonic fuente contenedora*/
+.cont-panasonic-fuente {
+    position: relative;
+    bottom: 5340px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 55%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo fuente panasonic*/
+.con2-panasonic-fuente {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*imagen fuente panasonic*/
+.fuente-panasonic1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto fuente panasonic*/
+.fuente0-panasonic {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton fuente panasonic*/
+.boton-panasonic-fuente {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo fuente panasonic*/
+.parrafo-fuente-panasonic {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*t-con panasonic*/
+.cont-panasonic-t-con {
+    position: relative;
+    bottom: 5310px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 55%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo t.con panasonic*/
+.con2-panasonic-t-con {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*t-con fuente panasonic*/
+.t-con-panasonic1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto t-con panasonic*/
+.t-con-panasonic {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton t-con panasonic*/
+.boton-panasonic-t-con {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo t-con panasonic*/
+.parrafo-t-con-panasonic {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*inverter panasonic*/
+.cont-panasonic-inverter {
+    position: relative;
+    bottom: 5710px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 5%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo inverter panasonic*/
+.con2-panasonic-inverter {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*inverter panasonic*/
+.inverter-panasonic1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto inverter panasonic*/
+.inverter-panasonic {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton inverter panasonic*/
+.boton-panasonic-inverter {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo inverter panasonic*/
+.parrafo-inverter-panasonic {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*inicio speler*/
+.fondo-speler {
+    width: 100%;
+    height: 5000px;
+}
+
+.fondo-heder-speler {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    bottom: 5005px;
+}
+
+/*navegacion speler*/
+.nav-marca-speler {
+    position: relative;
+    width: 100%;
+    background-color: rgb(11, 206, 206);
+    height: 50px;
+    display: block;
+}
+
+.nav-marca-speler, .lista-speler {
+    list-style-type: none;
+    text-align: center;
+}
+
+.lista-speler li {
+    position: relative;
+    display: inline;
+    text-align: center;
+    margin: 0 9px 0 ;
+    top: 6px;
+}
+/*titulo speler marca*/
+.h1-speler1 {
+    color: red;
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    bottom: 5130px; 
+}
+
+/*speler main contenedora*/
+.cont-speler {
+    position: relative;
+    bottom: 5040px;
+    background-color: aqua;
+    width: 40%;
+    height: 300px;
+    left: 5%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo main speler*/
+.con2-speler {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*imagen main speler*/
+.main-speler {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto main speler*/
+.main0-speler1 {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton main speler*/
+.boton-speler {
+    width: 20%;
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 480px;
+    font-size: 10px;
+    text-align: center;
+    right: 0px;
+}
+
+/*parrafo main speler*/
+.parrafo-main-speler {
+    position: relative;
+    width: 90%;
+    bottom: 265px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*speler fuente contenedora*/
+.cont-speler-fuente {
+    position: relative;
+    bottom: 5340px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 55%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo fuente speler*/
+.con2-speler-fuente {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*imagen fuente speler*/
+.fuente-speler1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto fuente speler*/
+.fuente0-speler {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton fuente speler*/
+.boton-speler-fuente {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo fuente speler*/
+.parrafo-fuente-speler {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*t-con speler*/
+.cont-speler-t-con {
+    position: relative;
+    bottom: 5310px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 55%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo t.con speler*/
+.con2-speler-t-con {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*t-con fuente speler*/
+.t-con-speler1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto t-con speler*/
+.t-con-speler {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton t-con speler*/
+.boton-speler-t-con {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo t-con speler*/
+.parrafo-t-con-speler {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*inverter speler*/
+.cont-speler-inverter {
+    position: relative;
+    bottom: 5710px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 5%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo inverter speler*/
+.con2-speler-inverter {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*inverter speler*/
+.inverter-speler1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto inverter speler*/
+.inverter-speler {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton inverter speler*/
+.boton-speler-inverter {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo inverter speler*/
+.parrafo-inverter-speler {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*inicia atvio*/
+.fondo-atvio {
+    width: 100%;
+    height: 5000px;
+}
+
+.fondo-heder-atvio {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    bottom: 5005px;
+}
+
+/*navegacion atvio*/
+.nav-marca-atvio {
+    position: relative;
+    width: 100%;
+    background-color: rgb(11, 206, 206);
+    height: 50px;
+    display: block;
+}
+
+.nav-marca-atvio, .lista-atvio {
+    list-style-type: none;
+    text-align: center;
+}
+
+.lista-atvio li {
+    position: relative;
+    display: inline;
+    text-align: center;
+    margin: 0 9px 0 ;
+    top: 6px;
+}
+/*titulo atvio marca*/
+.h1-atvio1 {
+    color: red;
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    bottom: 5130px; 
+}
+
+/*atvio main contenedora*/
+.cont-atvio {
+    position: relative;
+    bottom: 5040px;
+    background-color: aqua;
+    width: 40%;
+    height: 300px;
+    left: 5%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo main atvio*/
+.con2-atvio {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*imagen main atvio*/
+.main-atvio {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto main atvio*/
+.main0-atvio1 {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton main atvio*/
+.boton-atvio {
+    width: 20%;
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 480px;
+    font-size: 10px;
+    text-align: center;
+    right: 0px;
+}
+
+/*parrafo main atvio*/
+.parrafo-main-atvio {
+    position: relative;
+    width: 90%;
+    bottom: 265px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*atvio fuente contenedora*/
+.cont-atvio-fuente {
+    position: relative;
+    bottom: 5340px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 55%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo fuente atvio*/
+.con2-atvio-fuente {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*imagen fuente atvio*/
+.fuente-atvio1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto fuente atvio*/
+.fuente0-atvio {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton fuente atvio*/
+.boton-atvio-fuente {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo fuente atvio*/
+.parrafo-fuente-atvio {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*t-con atvio*/
+.cont-atvio-t-con {
+    position: relative;
+    bottom: 5310px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 55%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo t.con atvio*/
+.con2-atvio-t-con {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*t-con fuente atvio*/
+.t-con-atvio1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto t-con atvio*/
+.t-con-atvio {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton t-con atvio*/
+.boton-atvio-t-con {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo t-con atvio*/
+.parrafo-t-con-atvio {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+/*inverter atvio*/
+.cont-atvio-inverter {
+    position: relative;
+    bottom: 5710px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 5%;
+    border-radius: 30px;
+
+}
+/*contenedor titulo inverter atvio*/
+.con2-atvio-inverter {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+}
+/*inverter atvio*/
+.inverter-atvio1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+}
+/*texto inverter atvio*/
+.inverter-atvio {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+}
+/*boton inverter atvio*/
+.boton-atvio-inverter {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+}
+/*parrafo inverter atvio*/
+.parrafo-inverter-atvio {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+}
+
+
+/*inicia sharp*/
+.fondo-sharp {
+width: 100%;
+height: 5000px;
+}
+
+.fondo-heder-sharp {
+position: relative;
+width: 100%;
+height: 200px;
+bottom: 5005px;
+}
+
+/*navegacion sharp*/
+.nav-marca-sharp {
+position: relative;
+width: 100%;
+background-color: rgb(11, 206, 206);
+height: 50px;
+display: block;
+}
+
+.nav-marca-sharp, .lista-sharp {
+list-style-type: none;
+text-align: center;
+}
+
+.lista-sharp li {
+position: relative;
+display: inline;
+text-align: center;
+margin: 0 9px 0 ;
+top: 6px;
+}
+/*titulo sharp marca*/
+.h1-sharp1 {
+color: red;
+width: 100%;
+position: relative;
+font-size: 20px;
+text-align: center;
+display: block;
+bottom: 5130px; 
+}
+
+/*sharp main contenedora*/
+.cont-sharp {
+position: relative;
+bottom: 5040px;
+background-color: aqua;
+width: 40%;
+height: 300px;
+left: 5%;
+border-radius: 30px;
+
+}
+/*contenedor titulo main sharp*/
+.con2-sharp {
+position: relative;
+top: 250px;
+background-color: rgb(223, 219, 11);
+width: 100%;
+height: 150px;
+border-radius: 0px 0px 30px 30px;
+}
+/*imagen main sharp*/
+.main-sharp {
+position: relative;
+width: 100%;
+height: 250px;
+bottom: 273px;
+border-radius: 30px 30px 0 0;
+}
+/*texto main sharp*/
+.main0-sharp1 {
+position: relative;
+font-size: 20px;
+text-align: center;
+color: #0a0aff;
+}
+/*boton main sharp*/
+.boton-sharp {
+width: 20%;
+position: relative;
+background-color: #f3280d;
+border-radius: 10px;
+padding: 5px;
+bottom: 480px;
+font-size: 10px;
+text-align: center;
+right: 0px;
+}
+
+/*parrafo main sharp*/
+.parrafo-main-sharp {
+position: relative;
+width: 90%;
+bottom: 265px;
+left: 5px;
+font-size: 12.5px;
+}
+
+/*sharp fuente contenedora*/
+.cont-sharp-fuente {
+position: relative;
+bottom: 5340px;
+background-color: aqua;
+width: 40%;
+height: 400px;
+left: 55%;
+border-radius: 30px;
+
+}
+/*contenedor titulo fuente sharp*/
+.con2-sharp-fuente {
+position: relative;
+top: 250px;
+background-color: rgb(223, 219, 11);
+width: 100%;
+height: 150px;
+border-radius: 0px 0px 30px 30px;
+}
+/*imagen fuente sharp*/
+.fuente-sharp1 {
+position: relative;
+width: 100%;
+height: 250px;
+bottom: 273px;
+border-radius: 30px 30px 0 0;
+}
+/*texto fuente sharp*/
+.fuente0-sharp {
+position: relative;
+font-size: 20px;
+text-align: center;
+color: #0a0aff;
+}
+/*boton fuente sharp*/
+.boton-sharp-fuente {
+position: relative;
+background-color: #f3280d;
+border-radius: 10px;
+padding: 5px;
+bottom: 420px;
+font-size: 10px;
+text-align: center;
+left: 10px;
+color: black;
+}
+/*parrafo fuente sharp*/
+.parrafo-fuente-sharp {
+position: relative;
+width: 90%;
+bottom: 270px;
+left: 5px;
+font-size: 12.5px;
+}
+
+/*t-con sharp*/
+.cont-sharp-t-con {
+position: relative;
+bottom: 5310px;
+background-color: aqua;
+width: 40%;
+height: 400px;
+left: 55%;
+border-radius: 30px;
+
+}
+/*contenedor titulo t.con sharp*/
+.con2-sharp-t-con {
+position: relative;
+top: 250px;
+background-color: rgb(223, 219, 11);
+width: 100%;
+height: 150px;
+border-radius: 0px 0px 30px 30px;
+}
+/*t-con fuente sharp*/
+.t-con-sharp1 {
+position: relative;
+width: 100%;
+height: 250px;
+bottom: 273px;
+border-radius: 30px 30px 0 0;
+}
+/*texto t-con sharp*/
+.t-con-sharp {
+position: relative;
+font-size: 20px;
+text-align: center;
+color: #0a0aff;
+}
+/*boton t-con sharp*/
+.boton-sharp-t-con {
+position: relative;
+background-color: #f3280d;
+border-radius: 10px;
+padding: 5px;
+bottom: 420px;
+font-size: 10px;
+text-align: center;
+left: 10px;
+color: black;
+}
+/*parrafo t-con sharp*/
+.parrafo-t-con-sharp {
+position: relative;
+width: 90%;
+bottom: 270px;
+left: 5px;
+font-size: 12.5px;
+}
+
+/*inverter sharp*/
+.cont-sharp-inverter {
+position: relative;
+bottom: 5710px;
+background-color: aqua;
+width: 40%;
+height: 400px;
+left: 5%;
+border-radius: 30px;
+
+}
+/*contenedor titulo inverter sharp*/
+.con2-sharp-inverter {
+position: relative;
+top: 250px;
+background-color: rgb(223, 219, 11);
+width: 100%;
+height: 150px;
+border-radius: 0px 0px 30px 30px;
+}
+/*inverter sharp*/
+.inverter-sharp1 {
+position: relative;
+width: 100%;
+height: 250px;
+bottom: 273px;
+border-radius: 30px 30px 0 0;
+}
+/*texto inverter sharp*/
+.inverter-sharp {
+position: relative;
+font-size: 20px;
+text-align: center;
+color: #0a0aff;
+}
+/*boton inverter sharp*/
+.boton-sharp-inverter {
+position: relative;
+background-color: #f3280d;
+border-radius: 10px;
+padding: 5px;
+bottom: 420px;
+font-size: 10px;
+text-align: center;
+left: 10px;
+color: black;
+}
+/*parrafo inverter sharp*/
+.parrafo-inverter-sharp {
+position: relative;
+width: 90%;
+bottom: 270px;
+left: 5px;
+font-size: 12.5px;
+}
+
+/*inicia aoc*/
+.fondo-aoc {
+    width: 100%;
+    height: 5000px;
+    }
+    
+    .fondo-heder-aoc {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    bottom: 5005px;
+    }
+    
+    /*navegacion aoc*/
+    .nav-marca-aoc {
+    position: relative;
+    width: 100%;
+    background-color: rgb(11, 206, 206);
+    height: 50px;
+    display: block;
+    }
+    
+    .nav-marca-aoc, .lista-aoc {
+    list-style-type: none;
+    text-align: center;
+    }
+    
+    .lista-aoc li {
+    position: relative;
+    display: inline;
+    text-align: center;
+    margin: 0 9px 0 ;
+    top: 6px;
+    }
+    /*titulo aoc marca*/
+    .h1-aoc1 {
+    color: red;
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    bottom: 5130px; 
+    }
+    
+    /*aoc main contenedora*/
+    .cont-aoc {
+    position: relative;
+    bottom: 5040px;
+    background-color: aqua;
+    width: 40%;
+    height: 300px;
+    left: 5%;
+    border-radius: 30px;
+    
+    }
+    /*contenedor titulo main aoc*/
+    .con2-aoc {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+    }
+    /*imagen main aoc*/
+    .main-aoc {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+    }
+    /*texto main aoc*/
+    .main0-aoc1 {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+    }
+    /*boton main aoc*/
+    .boton-aoc {
+    width: 20%;
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 480px;
+    font-size: 10px;
+    text-align: center;
+    right: 0px;
+    }
+    
+    /*parrafo main aoc*/
+    .parrafo-main-aoc {
+    position: relative;
+    width: 90%;
+    bottom: 265px;
+    left: 5px;
+    font-size: 12.5px;
+    }
+    
+    /*aoc fuente contenedora*/
+    .cont-aoc-fuente {
+    position: relative;
+    bottom: 5340px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 55%;
+    border-radius: 30px;
+    
+    }
+    /*contenedor titulo fuente aoc*/
+    .con2-aoc-fuente {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+    }
+    /*imagen fuente aoc*/
+    .fuente-aoc1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+    }
+    /*texto fuente aoc*/
+    .fuente0-aoc {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+    }
+    /*boton fuente aoc*/
+    .boton-aoc-fuente {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+    }
+    /*parrafo fuente aoc*/
+    .parrafo-fuente-aoc {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+    }
+    
+    /*t-con aoc*/
+    .cont-aoc-t-con {
+    position: relative;
+    bottom: 5310px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 55%;
+    border-radius: 30px;
+    
+    }
+    /*contenedor titulo t.con aoc*/
+    .con2-aoc-t-con {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+    }
+    /*t-con fuente aoc*/
+    .t-con-aoc1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+    }
+    /*texto t-con aoc*/
+    .t-con-aoc {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+    }
+    /*boton t-con aoc*/
+    .boton-aoc-t-con {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+    }
+    /*parrafo t-con aoc*/
+    .parrafo-t-con-aoc {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+    }
+    
+    /*inverter aoc*/
+    .cont-aoc-inverter {
+    position: relative;
+    bottom: 5710px;
+    background-color: aqua;
+    width: 40%;
+    height: 400px;
+    left: 5%;
+    border-radius: 30px;
+    
+    }
+    /*contenedor titulo inverter aoc*/
+    .con2-aoc-inverter {
+    position: relative;
+    top: 250px;
+    background-color: rgb(223, 219, 11);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+    }
+    /*inverter aoc*/
+    .inverter-aoc1 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    bottom: 273px;
+    border-radius: 30px 30px 0 0;
+    }
+    /*texto inverter aoc*/
+    .inverter-aoc {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #0a0aff;
+    }
+    /*boton inverter aoc*/
+    .boton-aoc-inverter {
+    position: relative;
+    background-color: #f3280d;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 420px;
+    font-size: 10px;
+    text-align: center;
+    left: 10px;
+    color: black;
+    }
+    /*parrafo inverter aoc*/
+    .parrafo-inverter-aoc {
+    position: relative;
+    width: 90%;
+    bottom: 270px;
+    left: 5px;
+    font-size: 12.5px;
+    }
+    
+    /*inicio spectra*/
+    .fondo-spectra {
+        width: 100%;
+        height: 5000px;
+        }
+        
+        .fondo-heder-spectra {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        bottom: 5005px;
+        }
+        
+        /*navegacion spectra*/
+        .nav-marca-spectra {
+        position: relative;
+        width: 100%;
+        background-color: rgb(11, 206, 206);
+        height: 50px;
+        display: block;
+        }
+        
+        .nav-marca-spectra, .lista-spectra {
+        list-style-type: none;
+        text-align: center;
+        }
+        
+        .lista-spectra li {
+        position: relative;
+        display: inline;
+        text-align: center;
+        margin: 0 9px 0 ;
+        top: 6px;
+        }
+        /*titulo spectra marca*/
+        .h1-spectra1 {
+        color: red;
+        width: 100%;
+        position: relative;
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        bottom: 5130px; 
+        }
+        
+        /*spectra main contenedora*/
+        .cont-spectra {
+        position: relative;
+        bottom: 5040px;
+        background-color: aqua;
+        width: 40%;
+        height: 300px;
+        left: 5%;
+        border-radius: 30px;
+        
+        }
+        /*contenedor titulo main spectra*/
+        .con2-spectra {
+        position: relative;
+        top: 250px;
+        background-color: rgb(223, 219, 11);
+        width: 100%;
+        height: 150px;
+        border-radius: 0px 0px 30px 30px;
+        }
+        /*imagen main spectra*/
+        .main-spectra {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        bottom: 273px;
+        border-radius: 30px 30px 0 0;
+        }
+        /*texto main spectra*/
+        .main0-spectra1 {
+        position: relative;
+        font-size: 20px;
+        text-align: center;
+        color: #0a0aff;
+        }
+        /*boton main spectra*/
+        .boton-spectra {
+        width: 20%;
+        position: relative;
+        background-color: #f3280d;
+        border-radius: 10px;
+        padding: 5px;
+        bottom: 480px;
+        font-size: 10px;
+        text-align: center;
+        right: 0px;
+        }
+        
+        /*parrafo main spectra*/
+        .parrafo-main-spectra {
+        position: relative;
+        width: 90%;
+        bottom: 265px;
+        left: 5px;
+        font-size: 12.5px;
+        }
+        
+        /*spectra fuente contenedora*/
+        .cont-spectra-fuente {
+        position: relative;
+        bottom: 5340px;
+        background-color: aqua;
+        width: 40%;
+        height: 400px;
+        left: 55%;
+        border-radius: 30px;
+        
+        }
+        /*contenedor titulo fuente spectra*/
+        .con2-spectra-fuente {
+        position: relative;
+        top: 250px;
+        background-color: rgb(223, 219, 11);
+        width: 100%;
+        height: 150px;
+        border-radius: 0px 0px 30px 30px;
+        }
+        /*imagen fuente spectra*/
+        .fuente-spectra1 {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        bottom: 273px;
+        border-radius: 30px 30px 0 0;
+        }
+        /*texto fuente spectra*/
+        .fuente0-spectra {
+        position: relative;
+        font-size: 20px;
+        text-align: center;
+        color: #0a0aff;
+        }
+        /*boton fuente spectra*/
+        .boton-spectra-fuente {
+        position: relative;
+        background-color: #f3280d;
+        border-radius: 10px;
+        padding: 5px;
+        bottom: 420px;
+        font-size: 10px;
+        text-align: center;
+        left: 10px;
+        color: black;
+        }
+        /*parrafo fuente spectra*/
+        .parrafo-fuente-spectra {
+        position: relative;
+        width: 90%;
+        bottom: 270px;
+        left: 5px;
+        font-size: 12.5px;
+        }
+        
+        /*t-con spectra*/
+        .cont-spectra-t-con {
+        position: relative;
+        bottom: 5310px;
+        background-color: aqua;
+        width: 40%;
+        height: 400px;
+        left: 55%;
+        border-radius: 30px;
+        
+        }
+        /*contenedor titulo t.con spectra*/
+        .con2-spectra-t-con {
+        position: relative;
+        top: 250px;
+        background-color: rgb(223, 219, 11);
+        width: 100%;
+        height: 150px;
+        border-radius: 0px 0px 30px 30px;
+        }
+        /*t-con fuente spectra*/
+        .t-con-spectra1 {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        bottom: 273px;
+        border-radius: 30px 30px 0 0;
+        }
+        /*texto t-con spectra*/
+        .t-con-spectra {
+        position: relative;
+        font-size: 20px;
+        text-align: center;
+        color: #0a0aff;
+        }
+        /*boton t-con spectra*/
+        .boton-spectra-t-con {
+        position: relative;
+        background-color: #f3280d;
+        border-radius: 10px;
+        padding: 5px;
+        bottom: 420px;
+        font-size: 10px;
+        text-align: center;
+        left: 10px;
+        color: black;
+        }
+        /*parrafo t-con spectra*/
+        .parrafo-t-con-spectra {
+        position: relative;
+        width: 90%;
+        bottom: 270px;
+        left: 5px;
+        font-size: 12.5px;
+        }
+        
+        /*inverter spectra*/
+        .cont-spectra-inverter {
+        position: relative;
+        bottom: 5710px;
+        background-color: aqua;
+        width: 40%;
+        height: 400px;
+        left: 5%;
+        border-radius: 30px;
+        
+        }
+        /*contenedor titulo inverter spectra*/
+        .con2-spectra-inverter {
+        position: relative;
+        top: 250px;
+        background-color: rgb(223, 219, 11);
+        width: 100%;
+        height: 150px;
+        border-radius: 0px 0px 30px 30px;
+        }
+        /*inverter spectra*/
+        .inverter-spectra1 {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        bottom: 273px;
+        border-radius: 30px 30px 0 0;
+        }
+        /*texto inverter spectra*/
+        .inverter-spectra {
+        position: relative;
+        font-size: 20px;
+        text-align: center;
+        color: #0a0aff;
+        }
+        /*boton inverter spectra*/
+        .boton-spectra-inverter {
+        position: relative;
+        background-color: #f3280d;
+        border-radius: 10px;
+        padding: 5px;
+        bottom: 420px;
+        font-size: 10px;
+        text-align: center;
+        left: 10px;
+        color: black;
+        }
+        /*parrafo inverter spectra*/
+        .parrafo-inverter-spectra {
+        position: relative;
+        width: 90%;
+        bottom: 270px;
+        left: 5px;
+        font-size: 12.5px;
+        }
+        
+        /*inicia roku*/
+        .fondo-roku {
+            width: 100%;
+            height: 5000px;
+            }
+            
+            .fondo-heder-roku {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            bottom: 5005px;
+            }
+            
+            /*navegacion roku*/
+            .nav-marca-roku {
+            position: relative;
+            width: 100%;
+            background-color: rgb(11, 206, 206);
+            height: 50px;
+            display: block;
+            }
+            
+            .nav-marca-roku, .lista-roku {
+            list-style-type: none;
+            text-align: center;
+            }
+            
+            .lista-roku li {
+            position: relative;
+            display: inline;
+            text-align: center;
+            margin: 0 9px 0 ;
+            top: 6px;
+            }
+            /*titulo roku marca*/
+            .h1-roku1 {
+            color: red;
+            width: 100%;
+            position: relative;
+            font-size: 20px;
+            text-align: center;
+            display: block;
+            bottom: 5130px; 
+            }
+            
+            /*roku main contenedora*/
+            .cont-roku {
+            position: relative;
+            bottom: 5040px;
+            background-color: aqua;
+            width: 40%;
+            height: 300px;
+            left: 5%;
+            border-radius: 30px;
+            
+            }
+            /*contenedor titulo main roku*/
+            .con2-roku {
+            position: relative;
+            top: 250px;
+            background-color: rgb(223, 219, 11);
+            width: 100%;
+            height: 150px;
+            border-radius: 0px 0px 30px 30px;
+            }
+            /*imagen main roku*/
+            .main-roku {
+            position: relative;
+            width: 100%;
+            height: 250px;
+            bottom: 273px;
+            border-radius: 30px 30px 0 0;
+            }
+            /*texto main roku*/
+            .main0-roku1 {
+            position: relative;
+            font-size: 20px;
+            text-align: center;
+            color: #0a0aff;
+            }
+            /*boton main roku*/
+            .boton-roku {
+            width: 20%;
+            position: relative;
+            background-color: #f3280d;
+            border-radius: 10px;
+            padding: 5px;
+            bottom: 480px;
+            font-size: 10px;
+            text-align: center;
+            right: 0px;
+            }
+            
+            /*parrafo main roku*/
+            .parrafo-main-roku {
+            position: relative;
+            width: 90%;
+            bottom: 265px;
+            left: 5px;
+            font-size: 12.5px;
+            }
+            
+            /*roku fuente contenedora*/
+            .cont-roku-fuente {
+            position: relative;
+            bottom: 5340px;
+            background-color: aqua;
+            width: 40%;
+            height: 400px;
+            left: 55%;
+            border-radius: 30px;
+            
+            }
+            /*contenedor titulo fuente roku*/
+            .con2-roku-fuente {
+            position: relative;
+            top: 250px;
+            background-color: rgb(223, 219, 11);
+            width: 100%;
+            height: 150px;
+            border-radius: 0px 0px 30px 30px;
+            }
+            /*imagen fuente roku*/
+            .fuente-roku1 {
+            position: relative;
+            width: 100%;
+            height: 250px;
+            bottom: 273px;
+            border-radius: 30px 30px 0 0;
+            }
+            /*texto fuente roku*/
+            .fuente0-roku {
+            position: relative;
+            font-size: 20px;
+            text-align: center;
+            color: #0a0aff;
+            }
+            /*boton fuente roku*/
+            .boton-roku-fuente {
+            position: relative;
+            background-color: #f3280d;
+            border-radius: 10px;
+            padding: 5px;
+            bottom: 420px;
+            font-size: 10px;
+            text-align: center;
+            left: 10px;
+            color: black;
+            }
+            /*parrafo fuente roku*/
+            .parrafo-fuente-roku {
+            position: relative;
+            width: 90%;
+            bottom: 270px;
+            left: 5px;
+            font-size: 12.5px;
+            }
+            
+            /*t-con roku*/
+            .cont-roku-t-con {
+            position: relative;
+            bottom: 5310px;
+            background-color: aqua;
+            width: 40%;
+            height: 400px;
+            left: 55%;
+            border-radius: 30px;
+            
+            }
+            /*contenedor titulo t.con roku*/
+            .con2-roku-t-con {
+            position: relative;
+            top: 250px;
+            background-color: rgb(223, 219, 11);
+            width: 100%;
+            height: 150px;
+            border-radius: 0px 0px 30px 30px;
+            }
+            /*t-con fuente roku*/
+            .t-con-roku1 {
+            position: relative;
+            width: 100%;
+            height: 250px;
+            bottom: 273px;
+            border-radius: 30px 30px 0 0;
+            }
+            /*texto t-con roku*/
+            .t-con-roku {
+            position: relative;
+            font-size: 20px;
+            text-align: center;
+            color: #0a0aff;
+            }
+            /*boton t-con roku*/
+            .boton-roku-t-con {
+            position: relative;
+            background-color: #f3280d;
+            border-radius: 10px;
+            padding: 5px;
+            bottom: 420px;
+            font-size: 10px;
+            text-align: center;
+            left: 10px;
+            color: black;
+            }
+            /*parrafo t-con roku*/
+            .parrafo-t-con-roku {
+            position: relative;
+            width: 90%;
+            bottom: 270px;
+            left: 5px;
+            font-size: 12.5px;
+            }
+            
+            /*inverter roku*/
+            .cont-roku-inverter {
+            position: relative;
+            bottom: 5710px;
+            background-color: aqua;
+            width: 40%;
+            height: 400px;
+            left: 5%;
+            border-radius: 30px;
+            
+            }
+            /*contenedor titulo inverter roku*/
+            .con2-roku-inverter {
+            position: relative;
+            top: 250px;
+            background-color: rgb(223, 219, 11);
+            width: 100%;
+            height: 150px;
+            border-radius: 0px 0px 30px 30px;
+            }
+            /*inverter roku*/
+            .inverter-roku1 {
+            position: relative;
+            width: 100%;
+            height: 250px;
+            bottom: 273px;
+            border-radius: 30px 30px 0 0;
+            }
+            /*texto inverter roku*/
+            .inverter-roku {
+            position: relative;
+            font-size: 20px;
+            text-align: center;
+            color: #0a0aff;
+            }
+            /*boton inverter roku*/
+            .boton-roku-inverter {
+            position: relative;
+            background-color: #f3280d;
+            border-radius: 10px;
+            padding: 5px;
+            bottom: 420px;
+            font-size: 10px;
+            text-align: center;
+            left: 10px;
+            color: black;
+            }
+            /*parrafo inverter roku*/
+            .parrafo-inverter-roku {
+            position: relative;
+            width: 90%;
+            bottom: 270px;
+            left: 5px;
+            font-size: 12.5px;
+            }
+            
+            /*inicia heisense*/
+            .fondo-heisense {
+                width: 100%;
+                height: 5000px;
+                }
+                
+                .fondo-heder-heisense {
+                position: relative;
+                width: 100%;
+                height: 200px;
+                bottom: 5005px;
+                }
+                
+                /*navegacion heisense*/
+                .nav-marca-heisense {
+                position: relative;
+                width: 100%;
+                background-color: rgb(11, 206, 206);
+                height: 50px;
+                display: block;
+                }
+                
+                .nav-marca-heisense, .lista-heisense {
+                list-style-type: none;
+                text-align: center;
+                }
+                
+                .lista-heisense li {
+                position: relative;
+                display: inline;
+                text-align: center;
+                margin: 0 9px 0 ;
+                top: 6px;
+                }
+                /*titulo heisense marca*/
+                .h1-heisense1 {
+                color: red;
+                width: 100%;
+                position: relative;
+                font-size: 20px;
+                text-align: center;
+                display: block;
+                bottom: 5130px; 
+                }
+                
+                /*heisense main contenedora*/
+                .cont-heisense {
+                position: relative;
+                bottom: 5040px;
+                background-color: aqua;
+                width: 40%;
+                height: 300px;
+                left: 5%;
+                border-radius: 30px;
+                
+                }
+                /*contenedor titulo main heisense*/
+                .con2-heisense {
+                position: relative;
+                top: 250px;
+                background-color: rgb(223, 219, 11);
+                width: 100%;
+                height: 150px;
+                border-radius: 0px 0px 30px 30px;
+                }
+                /*imagen main heisense*/
+                .main-heisense {
+                position: relative;
+                width: 100%;
+                height: 250px;
+                bottom: 273px;
+                border-radius: 30px 30px 0 0;
+                }
+                /*texto main heisense*/
+                .main0-heisense1 {
+                position: relative;
+                font-size: 20px;
+                text-align: center;
+                color: #0a0aff;
+                }
+                /*boton main heisense*/
+                .boton-heisense {
+                width: 20%;
+                position: relative;
+                background-color: #f3280d;
+                border-radius: 10px;
+                padding: 5px;
+                bottom: 480px;
+                font-size: 10px;
+                text-align: center;
+                right: 0px;
+                }
+                
+                /*parrafo main heisense*/
+                .parrafo-main-heisense {
+                position: relative;
+                width: 90%;
+                bottom: 265px;
+                left: 5px;
+                font-size: 12.5px;
+                }
+                
+                /*heisense fuente contenedora*/
+                .cont-heisense-fuente {
+                position: relative;
+                bottom: 5340px;
+                background-color: aqua;
+                width: 40%;
+                height: 400px;
+                left: 55%;
+                border-radius: 30px;
+                
+                }
+                /*contenedor titulo fuente heisense*/
+                .con2-heisense-fuente {
+                position: relative;
+                top: 250px;
+                background-color: rgb(223, 219, 11);
+                width: 100%;
+                height: 150px;
+                border-radius: 0px 0px 30px 30px;
+                }
+                /*imagen fuente heisense*/
+                .fuente-heisense1 {
+                position: relative;
+                width: 100%;
+                height: 250px;
+                bottom: 273px;
+                border-radius: 30px 30px 0 0;
+                }
+                /*texto fuente heisense*/
+                .fuente0-heisense {
+                position: relative;
+                font-size: 20px;
+                text-align: center;
+                color: #0a0aff;
+                }
+                /*boton fuente heisense*/
+                .boton-heisense-fuente {
+                position: relative;
+                background-color: #f3280d;
+                border-radius: 10px;
+                padding: 5px;
+                bottom: 420px;
+                font-size: 10px;
+                text-align: center;
+                left: 10px;
+                color: black;
+                }
+                /*parrafo fuente heisense*/
+                .parrafo-fuente-heisense {
+                position: relative;
+                width: 90%;
+                bottom: 270px;
+                left: 5px;
+                font-size: 12.5px;
+                }
+                
+                /*t-con heisense*/
+                .cont-heisense-t-con {
+                position: relative;
+                bottom: 5310px;
+                background-color: aqua;
+                width: 40%;
+                height: 400px;
+                left: 55%;
+                border-radius: 30px;
+                
+                }
+                /*contenedor titulo t.con heisense*/
+                .con2-heisense-t-con {
+                position: relative;
+                top: 250px;
+                background-color: rgb(223, 219, 11);
+                width: 100%;
+                height: 150px;
+                border-radius: 0px 0px 30px 30px;
+                }
+                /*t-con fuente heisense*/
+                .t-con-heisense1 {
+                position: relative;
+                width: 100%;
+                height: 250px;
+                bottom: 273px;
+                border-radius: 30px 30px 0 0;
+                }
+                /*texto t-con heisense*/
+                .t-con-heisense {
+                position: relative;
+                font-size: 20px;
+                text-align: center;
+                color: #0a0aff;
+                }
+                /*boton t-con heisense*/
+                .boton-heisense-t-con {
+                position: relative;
+                background-color: #f3280d;
+                border-radius: 10px;
+                padding: 5px;
+                bottom: 420px;
+                font-size: 10px;
+                text-align: center;
+                left: 10px;
+                color: black;
+                }
+                /*parrafo t-con heisense*/
+                .parrafo-t-con-heisense {
+                position: relative;
+                width: 90%;
+                bottom: 270px;
+                left: 5px;
+                font-size: 12.5px;
+                }
+                
+                /*inverter heisense*/
+                .cont-heisense-inverter {
+                position: relative;
+                bottom: 5710px;
+                background-color: aqua;
+                width: 40%;
+                height: 400px;
+                left: 5%;
+                border-radius: 30px;
+                
+                }
+                /*contenedor titulo inverter heisense*/
+                .con2-heisense-inverter {
+                position: relative;
+                top: 250px;
+                background-color: rgb(223, 219, 11);
+                width: 100%;
+                height: 150px;
+                border-radius: 0px 0px 30px 30px;
+                }
+                /*inverter heisense*/
+                .inverter-heisense1 {
+                position: relative;
+                width: 100%;
+                height: 250px;
+                bottom: 273px;
+                border-radius: 30px 30px 0 0;
+                }
+                /*texto inverter heisense*/
+                .inverter-heisense {
+                position: relative;
+                font-size: 20px;
+                text-align: center;
+                color: #0a0aff;
+                }
+                /*boton inverter heisense*/
+                .boton-heisense-inverter {
+                position: relative;
+                background-color: #f3280d;
+                border-radius: 10px;
+                padding: 5px;
+                bottom: 420px;
+                font-size: 10px;
+                text-align: center;
+                left: 10px;
+                color: black;
+                }
+                /*parrafo inverter heisense*/
+                .parrafo-inverter-heisense {
+                position: relative;
+                width: 90%;
+                bottom: 270px;
+                left: 5px;
+                font-size: 12.5px;
+                }
+                
